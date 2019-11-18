@@ -10,8 +10,10 @@ Clone this repo to your machine and run `npm install`
 This parser uses the [AWS SDK npm package](https://www.npmjs.com/package/aws-sdk).
 
 ### Usage
-1. Edit the `BUCKET`, `REGION`, `ACCESS`, and `SECRET_KEY` to include your credentials
-2. Run `npm run parser`
+1. Make sure your at least one of your Segment source's destination is an AWS S3 bucket
+ ![Segment source's destination is an AWS S3 bucket](./screenshots/s3.png)
+2. Edit the `BUCKET`, `REGION`, `ACCESS`, and `SECRET_KEY` variables to include your AWS credentials
+3. Run `npm run parser`
 
 ### Screenshots
 *Parser starting (note: some logs contain more than one action)*
