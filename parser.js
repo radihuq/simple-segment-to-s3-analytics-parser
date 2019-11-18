@@ -137,6 +137,4 @@ module.exports.parseAnalytics = function () {
             throw new Error(`Could not Gunzip file: ${err.message}`);
         }
     }
-
-
 }
