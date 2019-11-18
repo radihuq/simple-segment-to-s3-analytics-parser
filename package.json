@@ -1,0 +1,25 @@
+{
+  "name": "simple-segment-to-s3-analytics-parser",
+  "version": "1.0.0",
+  "description": "Turn compressed Segment analytic logs into JS objects.",
+  "main": "parser.js",
+  "scripts": {  
+    "parser": "node -e \"require('./parser').parseAnalytics()\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/radihuq/simple-segment-to-s3-analytics-parser.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/radihuq/simple-segment-to-s3-analytics-parser/issues"
+  },
+  "homepage": "https://github.com/radihuq/simple-segment-to-s3-analytics-parser#readme",
+  "dependencies": {
+    "aws-sdk": "^2.573.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
